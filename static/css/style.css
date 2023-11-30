@@ -1,0 +1,82 @@
+/*Table of Contents
+-----------------------------------------------------------------------
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+-----------------------------------------------------------------------*/
+
+/* General Content
+-----------------------------------------------------------------------*/
+
+body {
+    background-color: rgb(235, 235, 235);    
+}
+
+li.list-group-item {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+a.btn-quiz:hover {
+    background-color: transparent !important;
+    color: black !important;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+/* Typography
+-----------------------------------------------------------------------*/
+
+/* Header & Navigation
+-----------------------------------------------------------------------*/
+
+nav.navbar {
+    background-color: red !important;
+}
+
+a.navColor {
+    color: white !important;
+}
+
+a.navColor:hover {
+    color: black !important;
+}
+
+a.active {
+    color: black !important;
+    font-weight: 600;
+    font-size: 140%;
+}
+
+a.navbar-brand {
+    color: white !important;
+}
+
+a.navbar-brand:hover {
+    color: black !important;
+}
+
+button.search:hover {
+    color: white !important;
+    background-color: black !important;
+}
+
+/* Images & Media
+-----------------------------------------------------------------------*/
+
+
+
+/* Footer
+-----------------------------------------------------------------------*/
+
+footer.custom {
+    background-color: black;
+}
+
+/* Media Queries
+-----------------------------------------------------------------------*/
+
+/* Larger than mobile */
